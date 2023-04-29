@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="fuction.js"> </script>
+    <title>online shop</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content" style="display: flex;" id="box1">
+                <img id="img" src="helmet.jpg" alt="helmet">
+                <p id="text">Spider Safety Helmet</p>
+                <button class="btn" type="button" onclick="buyNow()">Buy Now</button>
+                <p id="price">₱3500.00</p>
+                
+        </div>
+        
+        <div class="content2" style="display: none;" id="box2">
+                <p id="up"><u>Product Details</u></p>
+                <img id="img2" src="helmet.jpg" alt="helmet">
+                <p id="text1">Spider Safety Helmet</p>
+                <p id="price1">₱3500.00</p>
+                <p id="ship">Shipping To:</p>
+                <p id="fee">Shipping Fee:</p>
+                <p id="ship-price">₱50.00</p>
+                <p id="ship-loc">Cagayan de Oro City</p>
+                <p id="span">Quantity:
+                    <button id="nega" onclick="subQuantity();">-</button>
+                    <span id="quantity-tag">1</span>
+                    <button id="posi" onclick="addQuantity();">+</button>
+                </p>
+                <p id=></p>
+
+        </div>
+
+        <div class="content3" style="display: none;" id="box3">
+            <p id="up2"><u>Ready to Checkout?</u></p>
+            <p id="sub-total">Subtotal:</p>
+            <p id="QTY">QTY:</p>
+            <p id="fee-ship">Shipping Fee:</p>
+            <p id="all-total" style="color: rgb(226, 105, 39);">Total: </p>
+            <p id="subtotal"></p>
+            <p id="quan"></p>
+            <p id="ship-ping"></p>
+            <p id="towtal"></p>
+            <button class="btn2" type="button" onclick="checkOut()">Checkout</button>
+            
+        </div>
+        <p id="top" style="display: none"><u>Your Order</u></p>
+        <div class="content4" style="display: none;" id="box4">  
+            <img id="img3" src="helmet.jpg" alt="helmet">
+            <p id="shirt"><b>Spider Safety Helmet</b></p>  
+            <p id="prc"><b>₱3500.00</b></p>
+            <p id="total" style="color: rgb(226, 105, 39);"><b>Total: </b></p>     
+        </div>
+    </div>
+    
+</body>
+</html>

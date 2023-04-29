@@ -1,0 +1,318 @@
+* {
+    background-color: rgb(255, 239, 239);   
+}
+
+
+.container .content {
+  border-color: rgb(24, 145, 0);
+  box-shadow: 0 0 8px rgb(18, 228, 228);
+  width: 420px;
+  height: 400px;
+  display: flex;
+  border-radius: 8px;
+  top: 200px;
+  left: 600px;
+  position: fixed;
+
+}
+
+.container .content #img{
+    width: 160px;
+    height: 150px;
+    margin-left: 130px;
+    margin-top: 50px;
+  
+}
+
+.container  .content .btn{
+    color: rgb(0, 0, 0);
+    width: 255px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(255, 238, 0);
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 310px;
+    margin-left: 80px;
+    position: fixed;
+ 
+}
+
+.container .content #text{
+    font-size: 17px;
+    font-family: Arial;
+    margin-top: 250px;
+    margin-left: 45px;
+    position: fixed;
+    color: rgb(155, 114, 0);
+
+}
+.container .content #price{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 275px;
+    margin-left: -110px;
+    color: rgb(95, 0, 0);
+}
+
+
+.container .content2 {
+    border-color: rgb(137, 255, 152);
+    box-shadow: 0 0 8px rgb(110, 46, 46);
+    width: 420px;
+    height: 400px;
+    display: flex;
+    border-radius: 8px;
+    position: fixed;
+    top: 200px;
+    left: 400px;
+  }
+
+.container .content2 #img2{
+    width: 160px;
+    height: 150px;
+    margin-left: 130px;
+    margin-top: 80px;
+}
+.container .content2 #up{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.container .content2 #text1{
+    font-family: Arial;
+    font-size: 17px;
+    position: fixed;
+    margin-left:50px;
+    margin-top: 270px;
+}
+.container .content2 #price1{
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(218, 3, 3);
+    position: fixed;
+    margin-left:185px;
+    margin-top: 290px;
+}
+.container .content2 #ship{
+    font-size: 12px;
+    font-family: Arial;
+    position: fixed;
+    margin-left:120px;
+    margin-top: 315px;
+}
+.container .content2 #fee{
+    font-size: 12px;
+    font-family: Arial;
+    position: fixed;
+    margin-left:120px;
+    margin-top: 333px;
+}
+
+.container .content2 #ship-price{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: fixed;
+    margin-top: 333px;
+    margin-left:200px;
+    color: rgb(0, 0, 0);
+}
+.container .content2 #ship-loc{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: fixed;
+    margin-top: 315px;
+    margin-left:200px;
+    color: rgb(0, 0, 0);
+}
+.container .content2 #span{
+    margin-top: 355px;
+    margin-left: 150px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+.container .content2 #span #nega{
+    background-color: rgb(238, 255, 0);
+    border-radius: 2px;
+    border: 0px;
+    font-size: 14px;
+    width: 30px;
+    color: rgb(2, 2, 2);
+}
+.container .content2 #span #posi{
+    background-color: rgb(226, 105, 39);
+    border-radius: 2px;
+    border: 0px;
+    font-size: 14px;
+    width: 30px;
+    color: white;
+}
+  
+  
+
+.container .content3 {
+    border-color: rgb(58, 228, 6);
+    box-shadow: 0 0 8px rgb(117, 0, 0);
+    width: 420px;
+    height: 400px;
+    display: flex;
+    border-radius: 8px;
+    position: fixed;
+    top: 200px;
+    left: 900px;
+}
+.container .content3 #up2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 133px;
+    margin-top: 20px;
+}
+.container .content3 #sub-total{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.container .content3 #QTY{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 180px;
+    color: rgb(0, 0, 0);
+}
+.container .content3 #fee-ship{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+}
+.container .content3 #fee-ship{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 250px;
+    color: rgb(0, 0, 0);
+}
+.container .content3 #all-total{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 300px;
+    color: rgb(0, 0, 0);
+}
+.container  .content3 .btn2{
+    color: white;
+    width: 255px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(85, 0, 71);
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 350px;
+    margin-left: 80px;
+    position: fixed;
+}
+.container .content3 #subtotal{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.container .content3 #quan{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 180px;
+    color: rgb(43, 42, 42);
+}
+.container .content3 #ship-ping{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 250px;
+    color: rgb(43, 42, 42);
+}
+.container .content3 #towtal{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 300px;
+    color: rgb(43, 42, 42);
+}
+
+.container .content4 {
+    border-color: white;
+    box-shadow: 0 0 8px black;
+    width: 600px;
+    height: 220px;
+    display: flex;
+    border-radius: 8px;
+    position: fixed;
+    top: 200px;
+    left: 550px;
+}
+.container #top {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 800px;
+    margin-top: 150px;
+    position: fixed;
+    color: rgb(43, 42, 42);
+}
+
+.container .content4 #img3{
+    width: 140px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 50px;
+  
+}
+
+.container .content4 #shirt{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 70px;
+    color: rgb(43, 42, 42);
+}
+
+.container .content4 #prc{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 204px;
+    margin-top: 100px;
+    color: rgb(43, 42, 42);
+}
+
+.container .content4 #total{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-left: 204px;
+    margin-top: 170px;
+}
